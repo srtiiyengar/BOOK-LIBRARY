@@ -9,9 +9,6 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { BooksComponent } from './books/books.component';
 import { ShopbooksComponent } from './shopbooks/shopbooks.component';
-import { PrimeComponent } from './prime/prime.component';
-import { GoldComponent } from './gold/gold.component';
-import { DiamondComponent } from './diamond/diamond.component';
 import { LibraryComponent } from './library/library.component';
 import { ShippingComponent } from './shipping/shipping.component';
 
@@ -34,6 +31,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [DiamondComponent,GoldComponent,PrimeComponent,SignInComponent,LibraryComponent,NewMemberComponent, PageNotFoundComponent, SignUpComponent, HomeComponent, BooksComponent,ShopbooksComponent,ShippingComponent]
+export const routingComponents = [SignInComponent,LibraryComponent,NewMemberComponent, PageNotFoundComponent, SignUpComponent, HomeComponent, BooksComponent,ShopbooksComponent,ShippingComponent]
 
 

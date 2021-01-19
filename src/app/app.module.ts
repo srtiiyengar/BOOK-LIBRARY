@@ -16,9 +16,6 @@ import { RouterModule,Routes } from '@angular/router';
 import { BooksComponent } from './books/books.component';
 import { MylibraryComponent } from './mylibrary/mylibrary.component';
 import { ShopbooksComponent } from './shopbooks/shopbooks.component';
-import { PrimeComponent } from './prime/prime.component';
-import { GoldComponent } from './gold/gold.component';
-import { DiamondComponent } from './diamond/diamond.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BooksShowcaseComponent } from './books-showcase/books-showcase.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -39,9 +36,6 @@ import { ShippingComponent } from './shipping/shipping.component';
     BooksComponent,
     MylibraryComponent,
     ShopbooksComponent,
-    PrimeComponent,
-    GoldComponent,
-    DiamondComponent,
     BooksShowcaseComponent,
     LibraryComponent,
     ShippingComponent,
