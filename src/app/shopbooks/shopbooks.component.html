@@ -1,0 +1,20 @@
+<p>shopbooks works!</p>
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <div *ngFor="let d of data;let i = index" class="card-group">
+            <div class="card">
+              <img height="200px" src="{{d.volumeInfo.imageLinks.thumbnail}}" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">{{d.volumeInfo.title}}</h5>
+                <button (click)="addToCart(i)" mat-raised-button color="accent">Add to Cart</button>
+              </div>
+            </div>            
+          </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+
+  
+  

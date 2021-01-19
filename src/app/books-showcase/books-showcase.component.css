@@ -1,0 +1,19 @@
+.imgDesign{
+    height: 250px;
+    width: 260px;
+    margin-left: 110px;
+}
+.styleText{
+    text-align: center;
+    text-decoration: darkblue;
+    font: italic;
+    font-size: xx-large;
+}
+.styleText1{
+    text-align: center;
+    font-size:larger;
+    font: italic;
+}
+.txtColor{
+    color: white !important;
+}

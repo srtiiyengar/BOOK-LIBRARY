@@ -1,0 +1,23 @@
+<p>books-showcase works!</p>
+<div>
+    <img [src]="data.volumeInfo.imageLinks.thumbnail" class="imgDesign">
+</div>
+    <br>
+    <div class="styleText">
+        {{data.volumeInfo.title}}
+    </div>
+    <br>
+    <div class="styleText1">
+      Published On:  {{data.volumeInfo.publishedDate}}
+    </div>
+    <div class="styleText1">
+        Author: {{data.volumeInfo.authors}}
+    </div>
+    
+    <button mat-raised-button color="primary">
+        <a class="txtColor" href="{{data.volumeInfo.previewLink}}">Read Now</a>
+    </button>
+
+<div class="icon-wrapper">
+    <button mat-raised-button color="accent" (click)="addToMyLibrary()">Add to my Library</button>
+</div>

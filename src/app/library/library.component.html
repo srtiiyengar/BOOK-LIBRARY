@@ -1,0 +1,29 @@
+<p>mylibrary works!</p>
+
+<div class="row backGC">
+    <div class="col-md-4">
+        <button (click)="getFav()">books list</button>
+    </div>
+    <div  class="col-md-4">
+        <div class="mb-3">     
+            <mat-card  *ngFor="let b of userFavBooks; let i = index"  color="accent" class="background-color">
+            <p>{{i}}</p>
+            <mat-card-title>{{b.title}}</mat-card-title>
+            <img mat-card-md-image [src]="b.imageLinks.thumbnail">
+            <mat-card-footer>
+            <mat-card-actions class="alignment">
+                <button mat-raised-button >
+                    <a href="{{b.previewLink}}">Read Now</a>
+                </button>
+                <button mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="removeBook(i)">
+                    <mat-icon>delete</mat-icon>
+                  </button>
+            </mat-card-actions>
+        </mat-card-footer>
+        </mat-card>
+        
+    </div>
+</div>
+   
+    <div class="col-md-4"></div>
+</div>

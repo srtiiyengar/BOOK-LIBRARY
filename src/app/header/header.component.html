@@ -1,0 +1,65 @@
+
+<!-- bootstrap header -->
+<nav class="navbar navbar-dark bg-clr">
+    <div class="full-width">
+      <span
+        ><img
+          class="header-img ml-20"
+          src="../../assets/images/plant-clipart-sapling-2.jpg"
+          alt=""
+      /></span>
+      <span class="navbar-brand h1 ml-20">New Beginning</span>
+      <button routerLink="/sign-in" *ngIf="!isLoggedIn" class="sign-in-placement">sign-in</button>
+      <button routerLink="/sign-up" *ngIf="!isLoggedIn" class="sign-up-placement">sign-up</button>
+      <button routerLink="/sign-in" (click)="logout()" *ngIf="isLoggedIn" class="sign-out-placement">sign-out</button>
+    </div>
+  </nav>
+  <!-- basic nav starts -->
+<nav *ngIf="isLoggedIn" class="navbar navbar-expand-lg navbar-light bg-light backColor">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Welcome</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      
+
+      <ul class="navbar-nav">
+       
+        <li class="nav-item">
+          <a class="align" (click)="showBooks()" class="nav-link active" aria-current="page">EBOOKS</a>
+        </li>
+        <li class="nav-item">
+          <a class="align" (click)="showLibrary()" class="nav-link">MY LIBRARY</a>
+        </li>
+        <li class="nav-item">
+          <a class="align" (click)="shopBooks()" class="nav-link">SHOP BOOKS</a>
+        </li>
+        <li class="nav-item">
+          <a class="align" (click)="showCart()" class="nav-link">
+            <mat-icon  (click)="showCart()">shopping_cart</mat-icon>CART 
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container-fluid">
+      <form class="d-flex">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

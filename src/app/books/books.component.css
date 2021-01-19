@@ -1,0 +1,29 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.bacC{
+    background-color: rgb(245, 247, 244);
+}
+.bacimg{
+    background-image: url('../../assets/images/backimg3.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100% !important;
+  
+}
+.bookList{
+    text-align: center;
+    font-weight: bolder;
+}
+/* .hg{
+    height: 80% !important;
+} */
+
+.Sidebar{
+background-color: rgb(33, 20, 145);
+height: 100%;
+}
+.bacH{
+    height: 100%;
+}

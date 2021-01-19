@@ -1,0 +1,108 @@
+.bacImg{
+    background-image: url('../../assets/images/backimg.jpg');
+  background-repeat: no-repeat;
+  background-size:100%;
+  width: 100% !important;
+}
+.active{
+    width: 100% !important;
+}
+.container-fluid{
+
+    width: 100% !important;
+}
+.bacImg1{
+    background-image: url('../../assets/images/backimg1.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100% !important;
+}
+.bacImg2{
+    background-image: url('../../assets/images/backimg2.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100% !important; 
+}
+
+.backColor{
+    background: azure !important;
+}
+
+.carousel-item{
+    width: 100% !important;
+}
+.row{
+    width: 100% !important;
+}
+.card2-Style{
+    margin-top: 100px !important;
+
+}
+.wreduce{
+    width: 50%!important;
+    display: inline !important;
+}
+.clr{
+    color: black !important;
+}
+.divClr{
+    background-color: orangered;
+    width: 50% !important;
+}
+.df{
+    display: flex;
+}
+.divClr1{
+  
+    background-color: crimson;
+    width: 50% !important;
+}
+
+
+.card3-Style{
+    margin-top: 300px !important;
+}
+.nav-item:hover{
+    background: peachpuff;
+}
+
+.bacColor{
+    background: azure;
+}
+.bacColor:hover{
+    background: peachpuff;
+}
+
+.btn-outline-success:hover{
+    background: rgb(169, 226, 171) !important;
+}
+.divStyle{
+    background: purple;
+    width: 100% !important;
+}
+.divHeight{
+  
+    width: 100% !important;
+}
+.container{
+    width: 100% !important;
+}
+.carousel-inner{
+    width: 100% !important;
+}
+.carousel{
+    width: 100% !important;
+}
+.slide{
+    width: 100% !important;
+}
+.divC{
+    background-color: orangered;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.carousel-fade{
+    width: 100% !important;
+}
